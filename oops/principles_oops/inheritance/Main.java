@@ -1,5 +1,7 @@
 package principles_oops.inheritance;
 
+
+// there is something called sealed class in Java 17 which restricts classes which can inherit them.
 class Animal {
 	String name;
 	int age;
@@ -38,7 +40,6 @@ public class Main {
 		System.out.println(dog.name);
 		System.out.println(dog.age);
 		System.out.println(dog.breed);
-		;
 		dog.makeSound();
 		dog.fetchBall();
 	}
